@@ -97,7 +97,7 @@ export default function App() {
 
   // 2️⃣ التطبيق الرئيسي
   return (
-    <Router>
+   <Router basename="/Super-App">
       <div className="flex min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-200">
         
         {/* الشريط الجانبي */}
